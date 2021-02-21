@@ -1,0 +1,79 @@
+body 
+{
+	background-color:skyblue;
+	padding:30px;
+}
+.msg
+{
+	border: 1px solid;
+	margin: 0 100px 20px 100px;
+}
+.msg h3
+{
+	color: red;
+	margin-left: 15px;
+}
+#ques 
+{
+	border:2px dashed;
+	margin:0px 200px;
+	height: 600px;
+	overflow-y: scroll;
+}
+form
+{
+	margin: 7px 10px 10px 7px;
+}
+button
+{
+	background-color:#4CAF50;
+	border:none;
+	color:white;
+	padding:12px 24px;
+	text-decoration:none;
+}	
+center
+{
+	margin:10px;
+}
+#pages
+{
+	background-color:blue;
+	border:none;
+	color:white;
+	padding:4px 6px;
+	text-decoration:none;
+	margin:5px;
+}
+b 
+{
+	margin:5px;
+	font-family:"Times New Roaman", Times,serif;
+}
+input 
+{
+		margin:5px;
+}
+#result
+{
+	position:static;
+	top:30px;
+	left:100px;
+	right:10px;
+	width:50%;
+	float:left;
+}
+#correct
+{
+	position:static;
+	top:30px;
+	left:500px;
+	right:10px;
+	float:right;
+	width:50%;
+}	
+#number p 
+{
+	color:green;
+	font-size:x-large;
+}

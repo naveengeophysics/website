@@ -1,0 +1,67 @@
+body
+{
+	background-color: skyblue;
+	margin-top: 0px;
+	margin-right: 10px;
+}
+.main-topic
+{
+	background: rgb(0,100,0);
+    	text-align: center;
+	color: white;
+	height: 60px;
+	font-size: x-large;
+	position: fixed;
+	width: 99%;
+	border-radius: 2px;
+}
+.index
+{
+	margin: 66px 4px 0 3px;
+    float: left;
+    width: 24%;
+	height: 490px;
+    border: 2px solid;
+	text-align: center;
+    background-color: #fff;
+	position: fixed;
+	overflow-y: scroll;
+}
+.index ul
+{
+	text-align: left;
+}
+.index ul li
+{
+	margin: 5px 0 5px 0;
+}
+.index ul li a
+{
+	text-decoration: none;
+	color: black;
+}
+.topic
+{
+	margin: 66px 4px 0 3px;
+    float: right;
+    width: 73%;
+    border: 2px solid;
+    background-color: #fff;
+}
+.topic h3
+{
+	background-color: black;
+	color: white;
+	font-size: x-large;
+	text-align: center;
+	margin: 10px 20px 10px 20px;
+}
+.content
+{
+	margin: 15px 50px 10px 50px;
+	text-align: justify;
+}
+.fig
+{
+	margin: 10px 100px 10px 100px;
+}

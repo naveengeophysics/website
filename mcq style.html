@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Seismology MCQs</title>
+		<link href="mcqs.css" type="text/css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="msg">
+	   <h3>Tips for these MCQs</h3>
+	   <ul>
+	   	<li>Read each question carefully and select the best appropriate answer.</li>
+		<li>After selecting answers, press the submit button.</li>
+		<li>Your results are displayed on the top of the page.</li>
+	   </ul>
+	</div>
+    <div id="questions">
+	<div id="number"></div>
+		<center>
+		<a id="pages" href = "1.html">1</a>
+		<a id="pages" href = "2.html">2</a>
+		<a id="pages" href = "3.html">3</a>
+		<a id="pages" href = "4.html">4</a>
+		<a id="pages" href = "5.html">5</a>
+		<a id="pages" href = "6.html">6</a>
+		<a id="pages" href = "7.html">7</a>
+		<a id="pages" href = "8.html">8</a>
+		<a id="pages" href = "9.html">9</a>
+		<a id="pages" href = "10.html">10</a>
+		</center>
+		<ol start="51" id="ques"><form>
+		<li><b></b><br>
+		<input type = "radio" name = "ans51" value = ""><br>
+		<input type = "radio" name = "ans51" value = ""><br>
+		<input type = "radio" name = "ans51" value = ""><br>
+		<input type = "radio" name = "ans51" value = ""><br>
+		</li><br>
+		<li><b></b><br>
+		<input type = "radio" name = "ans52" value = ""><br>
+		<input type = "radio" name = "ans52" value = ""><br>
+		<input type = "radio" name = "ans52" value = ""><br>
+		<input type = "radio" name = "ans52" value = ""><br>
+		</li><br>
+		<li><b></b><br>
+		<input type = "radio" name = "ans53" value = ""><br>
+		<input type = "radio" name = "ans53" value = ""><br>
+		<input type = "radio" name = "ans53" value = ""><br>
+		<input type = "radio" name = "ans53" value = ""><br>
+		</li><br>
+		<li><b></b><br>
+		<input type = "radio" name = "ans54" value = ""><br>
+		<input type = "radio" name = "ans54" value = ""><br>
+		<input type = "radio" name = "ans54" value = ""><br>
+		<input type = "radio" name = "ans54" value = ""><br>
+		</li><br>
+		<li><b></b><br>
+		<input type = "radio" name = "ans55" value = ""><br>
+		<input type = "radio" name = "ans55" value = ""><br>
+		<input type = "radio" name = "ans55" value = ""><br>
+		<input type = "radio" name = "ans55" value = ""><br>
+		</li><br>
+		<li><b></b><br>
+		<input type = "radio" name = "ans56" value = ""><br>
+		<input type = "radio" name = "ans56" value = ""><br>
+		<input type = "radio" name = "ans56" value = ""><br>
+		<input type = "radio" name = "ans56" value = ""><br>
+		</li><br>
+		<li><b></b><br>
+		<input type = "radio" name = "ans57" value = ""><br>
+		<input type = "radio" name = "ans57" value = ""><br>
+		<input type = "radio" name = "ans57" value = ""><br>
+		<input type = "radio" name = "ans57" value = ""><br>
+		</li><br>
+		<li><b></b><br>
+		<input type = "radio" name = "ans58" value = ""><br>
+		<input type = "radio" name = "ans58" value = ""><br>
+		<input type = "radio" name = "ans58" value = ""><br>
+		<input type = "radio" name = "ans58" value = ""><br>
+		</li><br>
+		<li><b></b><br>
+		<input type = "radio" name = "ans59" value = ""><br>
+		<input type = "radio" name = "ans59" value = ""><br>
+		<input type = "radio" name = "ans59" value = ""><br>
+		<input type = "radio" name = "ans59" value = ""><br>
+		</li><br>
+		<li><b></b><br>
+		<input type = "radio" name = "ans60" value = ""><br>
+		<input type = "radio" name = "ans60" value = ""><br>
+		<input type = "radio" name = "ans60" value = ""><br>
+		<input type = "radio" name = "ans60" value = ""><br>
+		</li><br>
+		<li><b></b><br>
+		<input type = "radio" name = "ans10" value = ""><br>
+		<input type = "radio" name = "ans10" value = ""><br>
+		<input type = "radio" name = "ans10" value = ""><br>
+		<input type = "radio" name = "ans10" value = ""><br>
+		</li><br>
+		</form></ol>
+		<center><button type="button" onclick="result()"> 
+		Submit 
+		</button></center> <br>
+	<center>
+		<a id="pages" href = "1.html">1</a>
+		<a id="pages" href = "2.html">2</a>
+		<a id="pages" href = "3.html">3</a>
+		<a id="pages" href = "4.html">4</a>
+		<a id="pages" href = "5.html">5</a>
+		<a id="pages" href = "6.html">6</a>
+		<a id="pages" href = "7.html">7</a>
+		<a id="pages" href = "8.html">8</a>
+		<a id="pages" href = "9.html">9</a>
+		<a id="pages" href = "10.html">10</a>
+		</center>
+		<div id="result"></div>
+		<div id="correct"></div>
+	</div>
+	<script> 
+		function result() 
+		{ 
+			if(confirm("Do you want to submit test?"))
+				{document.getElementById("result").innerHTML = "<br><br>Your answers :<br><br>"; 
+				var ele = document.getElementsByTagName('input'); 
+				var c=0,total=0;
+				for(i = 0; i < ele.length; i++) 
+				{ 	
+					if(ele[i].type="radio") 
+					{ 
+						if(ele[i].checked)
+						{ 
+							c++;
+							document.getElementById("result").innerHTML += ele[i].name + ": " + ele[i].value + "<br>";
+							if(i>=0 && i<4)
+							{var ans1 = ele[i].value;}
+							if(i>=4 && i<8)
+							{var ans2 = ele[i].value;}
+							if(i>=8 && i<12)
+							{var ans3 = ele[i].value;}
+							if(i>=12 && i<16)
+							{var ans4 = ele[i].value;}
+							if(i>=16 && i<20)
+							{var ans5 = ele[i].value;}
+							if(i>=20 && i<24)
+							{var ans6 = ele[i].value;}
+							if(i>=24 && i<28)
+							{var ans7 = ele[i].value;}
+							if(i>=28 && i<32)
+							{var ans8 = ele[i].value;}
+							if(i>=32 && i<36)
+							{var ans9 = ele[i].value;}
+							if(i>=36 && i<40)
+							{var ans10 = ele[i].value;} 
+						}
+					} 
+				}
+				document.getElementById("correct").innerHTML = "<br><br>Correct answers :<ol><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>"; 
+				var correct_ans = new Array("","","","","","","","","","");
+				var selected_ans = new Array(ans1,ans2,ans3,ans4,ans5,ans6,ans7,ans8,ans9,ans10);
+				for(i=0;i<10;i++)
+				{
+					if(selected_ans[i] == correct_ans[i])
+					{total = total+1;}
+				}
+				document.getElementById("number").innerHTML = "<br>Total answered questions: "+c+"<br>Total unanswered questions: "+(10-c)+"<br><p>Your Score is: "+total+"</p>";
+				window.scrollBy(0,-1300);
+				alert("Total answered questions: "+c+"\n\nTotal unanswered questions: "+(10-c)+"\n\nYour Score is:"+total);
+			} 
+		}
+	</script> 
+		</body>
+</html>
